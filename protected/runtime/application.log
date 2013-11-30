@@ -1,0 +1,101 @@
+2013/11/21 06:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 D:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\wamp\www\yii.easy.tom\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=gii
+---
+2013/11/21 06:54:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in D:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\wamp\www\yii.easy.tom\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=admin
+---
+2013/11/22 03:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in D:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\wamp\www\yii.easy.tom\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=admin
+---
+2013/11/22 03:15:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in D:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\wamp\www\yii.easy.tom\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=admin
+---
+2013/11/22 03:15:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in D:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\wamp\www\yii.easy.tom\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=admin
+---
+2013/11/22 03:16:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in D:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\wamp\www\yii.easy.tom\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=admin
+---
+2013/11/22 03:17:07 [error] [exception.CException] exception 'CException' with message 'Alias "application.modules.AdminModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\wamp\www\framework\YiiBase.php:322
+Stack trace:
+#0 D:\wamp\www\framework\YiiBase.php(196): YiiBase::import('application.mod...', true)
+#1 D:\wamp\www\framework\base\CModule.php(282): YiiBase::createComponent('application.mod...', 'admin', NULL, Array)
+#2 D:\wamp\www\framework\web\CWebApplication.php(337): CModule->getModule('admin')
+#3 D:\wamp\www\framework\web\CWebApplication.php(276): CWebApplication->createController('admin')
+#4 D:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#5 D:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\wamp\www\yii.easy.tom\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/?r=admin
+---
+2013/11/22 08:27:54 [error] [php] Missing argument 1 for CModule::getModule(), called in D:\wamp\www\framework\base\CComponent.php on line 111 and defined (D:\wamp\www\framework\base\CModule.php:269)
+Stack trace:
+#0 D:\wamp\www\yii.easy.tom\protected\components\D_Controller.php(27): AdminModule->__get()
+#1 D:\wamp\www\framework\web\CWebApplication.php(281): DefaultController->init()
+#2 D:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#3 D:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\wamp\www\yii.easy.tom\index.php(13): CWebApplication->run()
+REQUEST_URI=/?r=admin
+in D:\wamp\www\yii.easy.tom\protected\components\D_Controller.php (27)
+in D:\wamp\www\yii.easy.tom\index.php (13)
+2013/11/26 23:46:53 [error] [exception.CException] exception 'CException' with message 'Property "DefaultController.breadcrumbs" is not defined.' in /srv/www/htdocs/framework/base/CComponent.php:173
+Stack trace:
+#0 /srv/www/htdocs/yii.easy.tom/protected/modules/admin/views/default/index.php(4): CComponent->__set('breadcrumbs', Array)
+#1 /srv/www/htdocs/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#2 /srv/www/htdocs/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', NULL, true)
+#3 /srv/www/htdocs/framework/web/CController.php(869): CBaseController->renderFile('/srv/www/htdocs...', NULL, true)
+#4 /srv/www/htdocs/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#5 /srv/www/htdocs/yii.easy.tom/protected/modules/admin/controllers/DefaultController.php(7): CController->render('index')
+#6 /srv/www/htdocs/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#7 /srv/www/htdocs/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /srv/www/htdocs/framework/web/CWebApplication.php(282): CController->run('')
+#11 /srv/www/htdocs/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#12 /srv/www/htdocs/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /srv/www/htdocs/yii.easy.tom/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/?r=admin
+---
+2013/11/26 23:49:48 [error] [php] include(/srv/www/htdocs/yii.easy.tom/protected/ext/yii-easyui/base/EuiController.php): failed to open stream: No such file or directory (/srv/www/htdocs/framework/YiiBase.php:401)
+Stack trace:
+#0 /srv/www/htdocs/yii.easy.tom/protected/modules/admin/controllers/DefaultController.php(4): spl_autoload_call()
+#1 /srv/www/htdocs/framework/web/CWebApplication.php(354): require()
+#2 /srv/www/htdocs/framework/web/CWebApplication.php(338): CWebApplication->createController()
+#3 /srv/www/htdocs/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#4 /srv/www/htdocs/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /srv/www/htdocs/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /srv/www/htdocs/yii.easy.tom/index.php(13): CWebApplication->run()
+REQUEST_URI=/?r=admin
+in /srv/www/htdocs/yii.easy.tom/protected/modules/admin/controllers/DefaultController.php (4)
+in /srv/www/htdocs/yii.easy.tom/index.php (13)

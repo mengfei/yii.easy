@@ -1,0 +1,615 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "protected/controllers/SiteController.php",
+			"settings":
+			{
+				"buffer_size": 2675,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "protected/modules/admin/AdminModule.php",
+			"settings":
+			{
+				"buffer_size": 634,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "protected/components/D_Controller.php",
+			"settings":
+			{
+				"buffer_size": 987,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "protected/config/main.php",
+			"settings":
+			{
+				"buffer_size": 2514,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "protected/modules/admin/controllers/DefaultController.php",
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zdluck/share/challenge.php",
+			"settings":
+			{
+				"buffer_size": 13239,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zdluck/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 39,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/* Sublime GitHub default settings */\n{\n    \"accounts\": {\n        \"GitHub\": {\n            \"base_uri\": \"https://api.github.com\",\n            \"github_token\": \"\"\n        }\n    },\n\n    // You can add support for a private GitHub installation by adding another entry\n    // to the accounts entry in the User settings file (Preferences ->\n    // Package Settings -> GitHub -> Settings - User). You can then switch between\n    // accounts via the GitHub: Switch Accounts command\n    //\n    // \"YourCo\": {\n    //     \"base_uri\": \"https://github.yourco.com/api/v3\",\n    //     \"github_token\": \"\"\n    // }\n\n    // The format of the each line in the list of gists.\n    // The value is either a Python format string, or a list of Python format\n    // strings. In the latter case, each element of the list will be a separate\n    // line in the select list.\n    // Valid parameters:\n    //    filename - filename of [first file in] gist\n    //    description - description of gist\n    //    index - 1-based index of gist in the list\n    //\n    // Some things to try:\n    // \"gist_list_format\": \"%(index)d. %(filename)s: %(description)s\",\n    // \"gist_list_format\": [\"%(filename)s\", \"%(description)s\"],\n    \"gist_list_format\": \"%(filename)s: %(description)s\",\n    // If true, display the list of gists in a monospace font\n    \"gist_list_monospace\": false,\n    // Highlight the line the cursor is on in GitHub, even if the line is not selected\n    \"always_highlight_current_line\": false,\n    // output debug info to the console\n    \"debug\": false\n}\n",
+			"file": "/home/zdluck/.config/sublime-text-3/Packages/sublime-github/GitHub.sublime-settings",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 1533,
+				"line_ending": "Unix",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "/home/zdluck/.config/sublime-text-3/Packages/User/GitHub.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "protected/modules/admin/views/default/index.php",
+			"settings":
+			{
+				"buffer_size": 385,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php /* @var $this Controller */ ?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n	<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n	<meta name=\"language\" content=\"en\" />\n<title><?php echo CHtml::encode($this->pageTitle); ?></title>\n</head>\n\n<body class=\"easyui-layout\">\n	<div region=\"north\" title=\"left\"  split=\"true\" style=\"height:100px;\"></div>\n	<div region=\"south\" title=\"south\"  split=\"true\" style=\"height:100px;\"></div>\n	<div region=\"east\" title=\"east\"  split=\"true\" style=\"width:100px;\"></div>\n	<div region=\"west\" title=\"west\"  split=\"true\" style=\"width:100px;\"></div>\n	<div region=\"center\" title=\"center\"  split=\"true\" style=\"padding:5px;background:#eee;\"></div>\n</body>\n</html>\n",
+			"file": "protected/views/layouts/admin.php",
+			"file_size": 877,
+			"file_write_time": 130299513446809201,
+			"settings":
+			{
+				"buffer_size": 860,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"git",
+				"GitHub: Open Gist in Browser"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instlal",
+				"Package Control: Install Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"romove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: insall",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 410.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request, urllib.error, urllib.parse,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/zdluck/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/zdluck/.config/sublime-text-3/Packages/User/GitGutter.sublime-settings",
+		"/home/zdluck/.config/sublime-text-3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/home/zdluck/sublime_imfix.c",
+		"/srv/www/htdocs/yii.easy.tom/protected/config/main.php",
+		"/srv/www/htdocs/yii.easy.tom/protected/modules/admin/controllers/DefaultController.php",
+		"/home/zdluck/.config/sublime-text-3/Packages/User/PHP.sublime-settings",
+		"/home/zdluck/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/zdluck/.config/sublime-text-3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/home/zdluck/.config/sublime-text-3/Packages/User/PHP Companion.sublime-settings",
+		"/home/zdluck/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/zdluck/.config/sublime-text-3/Packages/PHP Companion/Default.sublime-keymap",
+		"/home/zdluck/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/zdluck/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/zdluck/.config/sublime-text-3/Packages/SVN/SVN.sublime-settings"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dec",
+			"declaare"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "protected/controllers/SiteController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1475,
+								1475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "protected/modules/admin/AdminModule.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 634,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								443,
+								443
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "protected/components/D_Controller.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "protected/config/main.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "protected/modules/admin/controllers/DefaultController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/zdluck/share/challenge.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2146,
+								2146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1422.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/zdluck/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/zdluck/.config/sublime-text-3/Packages/sublime-github/GitHub.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/zdluck/.config/sublime-text-3/Packages/User/GitHub.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "protected/modules/admin/views/default/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "protected/views/layouts/admin.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								860,
+								860
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "yii.easy.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

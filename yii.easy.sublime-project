@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/srv/www/htdocs/yii.easy.tom"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/srv/www/htdocs/framework"
+		}
+	]
+}
